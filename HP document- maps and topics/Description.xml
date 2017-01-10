@@ -1,0 +1,13 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\concept.dtd">
+  <concept id="small_topic_2" xml:lang="en-us">
+ <title>Description</title>
+ <conbody>
+ <p>A Positive Test Cases checks, whether the application behaves as expected with the positive input and does what it is supposed to do. Positive Test Cases is performed on valid data as input. On the other hand, Negative Test Cases checks, whether the application behaves as expected with negative input and performed on invalid data as input.  </p>
+ 
+ 
+ 
+ 
+</conbody>
+ </concept>

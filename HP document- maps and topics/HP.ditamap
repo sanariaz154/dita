@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\map.dtd">
+ 
+ 
+<map title="Hugepage Integration Test Cases">
+     <title>
+<ph>Hugepage Integration Test Cases
+</ph>
+
+<image href="logo1.png" placement="break" />
+<codeph>© 2014-2016  Dell Inc.</codeph>
+
+</title>
+ 
+  <topicref href="Trademark.xml" type="concept"/>
+   <topicref href="Notes.xml" type="concept"/>
+   <topicref href="review.xml" type="concept"/>
+   <topicref href="purpose.xml" type="concept"/>
+   <topicref href="Description.xml" type="concept"/>
+   <topicref href="P.xml" type="concept">
+      <topicref href="31/31.xml" type="concept">
+   <topicref href="31/311.xml" type="concept"/>
+   <topicref href="31/312.xml" type="concept"/>
+  </topicref>
+  
+  
+   <topicref href="32/32.xml" type="concept">
+   <topicref href="32/321.xml" type="concept"/>
+   <topicref href="32/322.xml" type="concept"/>
+  </topicref>
+  
+  
+   <topicref href="33/33.xml" type="concept">
+   <topicref href="33/331.xml" type="concept"/>
+   <topicref href="33/332.xml" type="concept"/>
+  </topicref>
+  
+  
+   <topicref href="34/34.xml" type="concept">
+   <topicref href="34/341.xml" type="concept"/>
+   <topicref href="34/342.xml" type="concept"/>
+      </topicref>
+	  
+	     </topicref>
+   <topicref href="Functional.xml" type="concept"/>
+</map>

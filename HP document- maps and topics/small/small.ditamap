@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\map.dtd">
+ 
+ 
+<map title="World's Smallest DITA Project">
+   <topicref href="smallest.xml" type="concept"/>
+   <topicref href="smallest2.xml" type="concept"/>
+</map>

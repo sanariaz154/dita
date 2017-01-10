@@ -1,0 +1,81 @@
+ <!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\concept.dtd">
+  <concept id="small_topic_3.1.1" xml:lang="en-us">
+ <title>Positive Test Cases</title>
+ 
+ 
+ 
+ <conbody>
+<table colsep="1" rowsep="1">
+ <tgroup cols="5">
+ <colspec colname="COLSPEC0" colwidth="5%"/>
+<colspec colname="COLSPEC1" colwidth="30%"/>
+ <colspec colname="COLSPEC2" colwidth="30%"/>
+<colspec colname="COLSPEC3" colwidth="10%"/>
+<colspec colname="COLSPEC4" colwidth="25%"/>
+   <thead>
+   <row>
+   <entry> No.</entry>
+   <entry>Input </entry>
+   <entry> Expected Outcomes</entry>
+   <entry> Test Status</entry>
+   <entry>Test Result </entry>
+   </row>
+   </thead>
+   
+   <tbody>
+   <row>
+   <entry>1 </entry>
+   <entry>enable_hugepages variable is set to true . </entry>
+   <entry>The JetStream script should run and deploy the hugepages on all the compute nodes. </entry>
+   <entry> Done</entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 2</entry>
+   <entry>enable_hugepages variable is set to TRUE . </entry>
+   <entry>The JetStream script should run and deploy the hugepages on all the compute nodes. </entry>
+   <entry> Done</entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 3</entry>
+   <entry>enable_hugepages is set to True. </entry>
+   <entry>The JetStream script should run and deploy the hugepages on all the compute nodes. </entry>
+   <entry>Done </entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 4</entry>
+   <entry>enable_hugepages variable is set to false </entry>
+   <entry> The JetStream script shouldn’t deploy the hugepages .</entry>
+   <entry> Done</entry>
+   <entry>Pass </entry>
+   </row>
+   <row>
+   <entry> 5</entry>
+   <entry>enable_hugepages variable is set to FALSE. </entry>
+   <entry> The JetStream script shouldn’t deploy the hugepages.</entry>
+   <entry>Done </entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 6</entry>
+   <entry> Enable_hugepages variable is set to False</entry>
+   <entry> The JetStream script shouldn’t deploy the hugepages. </entry>
+   <entry> Done</entry>
+   <entry>Pass </entry>
+   </row>
+   
+   
+    </tbody>
+ </tgroup>
+ </table>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+ <p>  </p>
+ </conbody>
+ </concept>

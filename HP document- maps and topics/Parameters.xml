@@ -1,0 +1,9 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\concept.dtd">
+  <concept id="small_topic_3" xml:lang="en-us">
+ <title>Parameters</title>
+ <shortdesc>Following configuration options are applicable to hugepages.py script.  </shortdesc>
+ 
+ <shortdesc>The test cases for each parameter are described below</shortdesc>
+ </concept>

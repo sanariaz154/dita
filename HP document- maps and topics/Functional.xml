@@ -1,0 +1,87 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\concept.dtd">
+  <concept id="small_topic_2" xml:lang="en-us">
+ <title>Functional Test</title>
+ <conbody>
+ <table colsep="1" rowsep="1">
+ <tgroup cols="5">
+ <colspec colname="COLSPEC0" colwidth="5%"/>
+<colspec colname="COLSPEC1" colwidth="30%"/>
+ <colspec colname="COLSPEC2" colwidth="30%"/>
+<colspec colname="COLSPEC3" colwidth="10%"/>
+<colspec colname="COLSPEC4" colwidth="25%"/>
+   <thead>
+   <row>
+   <entry> No.</entry>
+   <entry>Test Case </entry>
+   <entry> Expected Outcomes</entry>
+   <entry> Test Status</entry>
+   <entry>Test Result </entry>
+   </row>
+   </thead>
+   
+   <tbody>
+   <row>
+   <entry>1 </entry>
+   <entry>Deployment of JetStream without enabling hugepages and NUMA variables. </entry>
+   <entry>JetStream deployment should be successful. </entry>
+   <entry> Done</entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 2</entry>
+   <entry>Deployment of JetStream with enabling hugepages variable only. </entry>
+   <entry>JetStream deployment should be successful along with hugepages deployment. </entry>
+   <entry> Done</entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 3</entry>
+   <entry>Deployment of JetStream with enabling both hugepages and NUMA variables  </entry>
+   <entry>JetStream deployment should be successful along with hugepages and NUMA deployment. </entry>
+   <entry>Done </entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 4</entry>
+   <entry>Deployment of JetStream along with hugepages and not specifying the value for the flavor_name in the .ini file. </entry>
+   <entry> The script should exit with an error.</entry>
+   <entry> Done</entry>
+   <entry>Pass </entry>
+   </row>
+   <row>
+   <entry> 5</entry>
+   <entry>Deployment of JetStream along with hugepages and not specifying the values for the hpgsize and hpgnum in the .ini file. </entry>
+   <entry> The script should exit with an error.</entry>
+   <entry>Done </entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 6</entry>
+   <entry> Creation of  a test instance in Overcloud with Hugepages flavor</entry>
+   <entry> An instance should be created without any error</entry>
+   <entry> Done</entry>
+   <entry>Pass </entry>
+   </row>
+   <row>
+   <entry> 7</entry>
+   <entry>	Reduction of Hugepages number in one of the compute nodes after creation of Hugepages test instance </entry>
+   <entry>HugePages_Free should be less than Hugepages_Total </entry>
+   <entry> Done</entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 8</entry>
+   <entry>Run Jetstream script with enable_hugepages set to true and run_sanity set to true in the settings file </entry>
+   <entry> Sanity Test should pass</entry>
+   <entry> Done</entry>
+   <entry> Pass</entry>
+   </row>
+    </tbody>
+ </tgroup>
+ </table>
+ 
+ 
+</conbody>
+ </concept>

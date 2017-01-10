@@ -1,0 +1,11 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\concept.dtd">
+  <concept id="small_topic_32" xml:lang="en-us">
+ <title>flavor_name</title>
+ <conbody>
+ <p>This test case verifies that the “flavor_name” option only takes the flavor names supported by the script. The valid values for flavor_name are alphanumeric values, “. “, “_” and “-” .</p>
+ 
+ 
+</conbody>
+ </concept>

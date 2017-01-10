@@ -1,0 +1,11 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\concept.dtd">
+  <concept id="small_topic_34" xml:lang="en-us">
+ <title>hpgnum</title>
+ <conbody>
+ <p>hpgnum is the number of hugepages to be created on compute nodes. Only positive integer values are allowed for this parameter. Moreover, it has one-to-one correspondence with hpgsize. For hpgsize of 2MB, hpgnum allows 49152, and for 1GB hpgsize, 96 is the only valid value. </p>
+ 
+ 
+</conbody>
+ </concept>

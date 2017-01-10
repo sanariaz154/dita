@@ -1,0 +1,11 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\concept.dtd">
+  <concept id="small_topic_33" xml:lang="en-us">
+ <title>hpgsize</title>
+ <conbody>
+ <p>hpgsize is the size of Hugepages to be assigned to compute nodes. The valid values for hugeages are “2MB” and “1GB”. Any other values are not allowed and script should throw an exception.</p>
+ 
+ 
+</conbody>
+ </concept>

@@ -1,0 +1,83 @@
+ <!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\concept.dtd">
+  <concept id="small_topic_3.2.1" xml:lang="en-us">
+ <title>Positive Test Cases</title>
+ 
+ 
+ 
+ <conbody>
+<table colsep="1" rowsep="1">
+ <tgroup cols="5">
+ <colspec colname="COLSPEC0" colwidth="5%"/>
+<colspec colname="COLSPEC1" colwidth="30%"/>
+ <colspec colname="COLSPEC2" colwidth="30%"/>
+<colspec colname="COLSPEC3" colwidth="10%"/>
+<colspec colname="COLSPEC4" colwidth="25%"/>
+   <thead>
+   <row>
+   <entry> No.</entry>
+   <entry>Input </entry>
+   <entry> Expected Outcomes</entry>
+   <entry> Test Status</entry>
+   <entry>Test Result </entry>
+   </row>
+   </thead>
+   
+   <tbody>
+   <row>
+   <entry>1 </entry>
+   <entry>NewFlavor </entry>
+   <entry>Valid value so flavor should be created with given name and hugepages should be deployed. </entry>
+   <entry> Done</entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 2</entry>
+   <entry>flavor_for_nfv </entry>
+   <entry>Valid value so flavor should be created with given name and hugepages should be deployed. </entry>
+   <entry> Done</entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 3</entry>
+   <entry>nfv_250_1 </entry>
+   <entry>Valid value so flavor should be created with given name and hugepages should be deployed. </entry>
+   <entry>Done </entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 4</entry>
+   <entry>m1.flavor_2 </entry>
+   <entry> Valid value so flavor should be created with given name and hugepages should be deployed.</entry>
+   <entry> Done</entry>
+   <entry>Pass </entry>
+   </row>
+   <row>
+   <entry> 5</entry>
+   <entry>flavor-nfv </entry>
+   <entry>Valid value so flavor should be created with given name and hugepages should be deployed.</entry>
+   <entry>Done </entry>
+   <entry> Pass</entry>
+   </row>
+   <row>
+   <entry> 6</entry>
+   <entry>-1</entry>
+   <entry> Valid value so flavor should be created with given name and hugepages should be deployed. </entry>
+   <entry> Done</entry>
+   <entry>Pass </entry>
+   </row>
+   <row>
+   <entry> 7</entry>
+   <entry> - </entry>
+   <entry> Valid value so flavor should be created with given name and hugepages should be deployed. </entry>
+   <entry> Done</entry>
+   <entry>Pass </entry>
+   </row>
+   
+    </tbody>
+ </tgroup>
+ </table>
+ 
+ </conbody>
+ </concept>

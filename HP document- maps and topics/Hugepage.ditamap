@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\bookmap.dtd">
+ 
+ 
+<bookmap id="any" xml:lang="eng">
+<booktitle>
+   <mainbooktitle>HUGEPAGE INTEGRATION TEST CASES</mainbooktitle>
+</booktitle>
+   
+   <chapter>
+   
+  <topicref href="Trademark.xml" type="concept">
+   <topicref href="Notes.xml" type="concept"/>
+   <topicref href="purpose.xml" type="concept"/>
+   <topicref href="Description.xml" type="concept"/>
+   
+   <topicref href="P.xml" type="concept">
+      <topicref href="31/31.xml" type="concept">
+   <topicref href="31/311.xml" type="concept"/>
+   <topicref href="31/312.xml" type="concept"/>
+  </topicref>
+  
+  
+   <topicref href="32/32.xml" type="concept">
+   <topicref href="32/321.xml" type="concept"/>
+   <topicref href="32/322.xml" type="concept"/>
+  </topicref>
+  
+  
+   <topicref href="33/33.xml" type="concept">
+   <topicref href="33/331.xml" type="concept"/>
+   <topicref href="33/332.xml" type="concept"/>
+  </topicref>
+  
+  
+   <topicref href="34/34.xml" type="concept">
+   <topicref href="34/341.xml" type="concept"/>
+   <topicref href="34/342.xml" type="concept"/>
+      </topicref>
+	  
+	     </topicref>
+   <topicref href="Functional.xml" type="concept"/>
+</topicref>
+</chapter>  
+ 
+</bookmap>
