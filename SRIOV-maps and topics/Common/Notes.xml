@@ -1,0 +1,25 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "C:\Program Files (x86)\DITA-OT1.8.5\dtd\technicalContent\dtd\concept.dtd">
+  <concept id="notes" xml:lang="en-us">
+  <!--font face = 'Museo Sans For Dell' size = '24' color = 'blue'-->
+ <title>Notes, Cautions, and Warnings</title>
+ 
+ <conbody>
+<p><image href="note.png" height="10"
+width="15"/> A <b>Note</b> indicates important information that helps you make better use of your system.</p>
+ 
+ <p><image href="caution.png" height="10"
+width="15"/> A <b>Caution</b> indicates potential damage to hardware or loss of data if instructions are not followed.</p>
+ <p><image href="warning.png" height="10"
+width="15"/> A <b>Warning</b> indicates a potential for property damage, personal injury, or death.</p>
+ <p>This document is for informational purposes only and may contain typographical errors and technical
+inaccuracies. The content is provided as is, without express or implied warranties of any kind.</p>
+ 
+ 
+ 
+ </conbody>
+
+ 
+
+ </concept>

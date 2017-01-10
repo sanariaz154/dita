@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="2.1">
+  <title>Hardware Requirements</title>
+  
+  <body>
+  <p> <ol>	
+  <li>  NFV 6.0 full deployment, see the following document for NFV 6.0 deployment.
+Note: Assuming the compute node will consist of R630 or R730.  This script is currently validated with Dell S6000 switches. </li>
+	<li>	In addition to standard NFV 6.0 Hardware following additional Hardware is required:
+
+	<ol>
+		<li>	6 x Intel® X520 ( 2 X520 for each compute node)
+		<ol>
+		 
+		<li>	2 x Intel ® X520 will be installed in each compute node at following slots respectively:
+		<ol>
+		<li>	P1</li>
+		<li>	P2   </li> </ol></li>
+		</ol>
+		 </li>
+	<li>	4 x QSFP connectors
+	 <ol>
+				<li>	2 x QSFP connector will be connected to S6000-1</li>
+				<li>	2 x QSFP connector will be connected to S6000-1 </li> </ol> </li>
+	<li>	12 x SFP connectors
+				<ol>
+				<li>	SFP connectors will be connected to each Intel ® X520 NIC ports. </li>
+				</ol>
+	</li>
+	<li>	4 x QSFP to SFP breakout fiber cables, following is the cabling reference:</li>
+	</ol>
+	</li>
+
+
+</ol>
+</p>
+  </body>
+  </topic>

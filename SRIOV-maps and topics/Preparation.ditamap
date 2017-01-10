@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Preparation map</title>
+
+
+ <topicref href="hardware_req.dita"/>
+ <topicref href="hardware_dep.dita"/>
+  <topicref href="network.dita"/>
+ <topicref href="software.dita"/>
+
+</map>

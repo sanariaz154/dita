@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>SRIOV script inctance pass</title>
+
+
+ <topicref href="prereq2.dita"/>
+ <topicref href="script_param2.dita"/>
+  <topicref href="steps2.dita"/>
+ <topicref href="validate_instance.dita"/>
+
+</map>

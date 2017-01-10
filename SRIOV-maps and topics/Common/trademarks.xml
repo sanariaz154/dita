@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_gfg_fkz_xp">
+  <title>Trademarks</title>
+  <body>
+    <p>&#169; 2014-2016 <keyword keyref="company_name_long"/> All rights reserved. Reproduction of this material in any manner
+      whatsoever without the express written permission of <keyword keyref="company_name_long"/> is prohibited. For more
+      information, contact <keyword keyref="company_name_short"/>.</p>
+    <p>Trademarks used in this text: <tm trademark="Dell" tmtype="tm">Dell</tm>, the DELL logo, <tm
+        trademark="PowerEdge" tmtype="tm">PowerEdge</tm>, and <tm trademark="Dell Networking"
+          tmtype="tm">Dell Networking</tm> are trademarks of <keyword keyref="company_name_long"/> <tm trademark="Intel" tmtype="reg">Intel</tm> and <tm trademark="Xeon" tmtype="reg">Xeon</tm> are registered trademarks of Intel Corporation in the U.S. and other countries. <tm trademark="Microsoft"
+        tmtype="reg">Microsoft</tm> and <tm trademark="Windows" tmtype="reg">Windows</tm> are
+      registered trademarks of Microsoft Corporation in the United States and/or other
+      countries.</p>
+    <p><tm trademark="Red Hat" tmtype="reg">Red Hat</tm>, Red Hat <tm trademark="Enterprise Linux"
+        tmtype="reg">Enterprise Linux</tm>, and Ceph are trademarks or registered trademarks of Red
+      Hat, Inc., registered in the U.S. and other countries. <tm trademark="Linux" tmtype="reg"
+        >Linux</tm> is the registered trademark of Linus Torvalds in the U.S. and other countries.
+        <tm trademark="Oracle" tmtype="reg">Oracle</tm> and <tm trademark="Java" tmtype="reg"
+        >Java</tm> are registered trademarks of Oracle Corporation and/or its affiliates.</p>
+    <p>DISCLAIMER: The <tm trademark="OpenStack" tmtype="reg">OpenStack</tm> Word Mark and OpenStack
+      Logo are either registered trademarks/service marks or trademarks/service marks of the
+      OpenStack Foundation, in the United States and other countries, and are used with the
+      OpenStack Foundation's permission. We are not affiliated with, endorsed or sponsored by the
+      OpenStack Foundation or the OpenStack community.</p>
+    <p>The <tm trademark="Midokura" tmtype="reg">Midokura</tm> name and logo, as well as the <tm
+        trademark="MidoNet" tmtype="reg">MidoNet</tm> name and logo, are registered trademarks of
+      Midokura SARL.</p>
+    <p>Other trademarks and trade names may be used in this publication to refer to either the
+      entities claiming the marks and names or their products. <keyword keyref="company_name_long"/> disclaims any proprietary
+      interest in trademarks and trade names other than its own.</p>
+  </body>
+</topic>

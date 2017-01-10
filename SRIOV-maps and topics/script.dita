@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="Script">
+  <title>SRIOV script operational notes</title>
+  
+  <body>
+  <p> Followings are the operational recommendations for SRIOV scripts:
+  
+  <ol>	<li>SRIOV scripts has 2 passes, cnode pass and instance pass. </li>
+<li>	“cnode” pass provides the fully automated enablement of SRIOV infrastructure on top of Dell Redhat NFV solution 6.0. 
+This includes creating virtual functions, assigning bandwidth to each virtual function.</li>
+<li>	“instance” pass provides the fully automated method of attaching virtual functions to VMs and creating bonds inside the virtual machines for redundancy.</li>
+<li>	SRIOV scripts require a pair of two Physical Functions. PF in each pair should be part of different X520. For Example: In pair 1, first PF is P1P1 then the second PF should belong to slot P2, in this case, P2P1.
+ Such pairing mechanism is used to provide NIC level redundancy, in case if one of the NIC goes down.</li>
+<li>	While assigning the VFs to a VM, script will assign first VF from the first PF in the pair, and second VF from the second PF in the pair.</li>
+<li>	SRIOV cnode pass also needs to have compute node name as input to the script in the settings file.</li>
+<li>	SRIOV instance pass needs to have instance name as input to the script.</li>
+
+
+</ol>
+</p>
+  </body>
+  </topic>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="pre2">
+  <title>Pre requisite</title>
+  
+  <body>
+
+
+    <p>  
+ <ol>
+        <li>	SRIOV script pass-1 must be successfully completed.</li>
+        <li>	Virtual functions are successfully created and assigned to Virtual Machines.</li>
+<li>	Following is the explanation of the attributes of the “.properties” file that will be used during this pass.</li>
+	
+</ol>
+	  </p>
+	  </body>
+	  </topic>
+	  

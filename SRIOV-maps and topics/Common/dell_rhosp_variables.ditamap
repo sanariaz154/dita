@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>SRIOV ON NFV 6.0</title>
+ <keydef keys="company_name_short">
+  <topicmeta>
+   <keywords>
+    <keyword>Dell</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="company_name_long">
+  <topicmeta>
+   <keywords>
+    <keyword>Dell Inc.</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="SRIOV">
+  <topicmeta>
+   <keywords>
+    <keyword>SRIOV ON NFV</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="product_version">
+  <topicmeta>
+   <keywords>
+    <keyword>6.0</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="openstack_version">
+  <topicmeta>
+   <keywords>
+    <keyword>Mitaka</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="prodname_openshift_short">
+  <topicmeta>
+   <keywords>
+    <keyword>OpenShift</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="prodname_openshift_long">
+  <topicmeta>
+   <keywords>
+    <keyword>OpenShift Container Platform</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="openshift_version">
+  <topicmeta>
+   <keywords>
+    <keyword>3.2</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="prodname_cloudforms_short">
+  <topicmeta>
+   <keywords>
+    <keyword>CloudForms</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="prodname_cloudforms_long">
+  <topicmeta>
+   <keywords>
+    <keyword>Red Hat CloudForms</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="cloudforms_version">
+  <topicmeta>
+   <keywords>
+    <keyword>4.1</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="rhel_os_version_long">
+  <topicmeta>
+   <keywords>
+    <keyword>Red Hat Enterprise Linux Server 7</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="rhel_os_version_short">
+  <topicmeta>
+   <keywords>
+    <keyword>RHEL 7.2</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="rhel_os_iso_name">
+  <topicmeta>
+   <keywords>
+    <keyword>rhel-server-7.2-x86_64-dvd.iso</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="rhosp_long">
+  <topicmeta>
+   <keywords>
+    <keyword>Red Hat OpenStack Platform</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="rhosp_short">
+  <topicmeta>
+   <keywords>
+    <keyword>RHOSP</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="rhosp_version">
+  <topicmeta>
+   <keywords>
+    <keyword>9</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="rhosp_installer">
+  <topicmeta>
+   <keywords>
+    <keyword>Red Hat OpenStack Director</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="poweredge_r430">
+  <topicmeta>
+   <keywords>
+    <keyword>PowerEdge R430</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="poweredge_r630">
+  <topicmeta>
+   <keywords>
+    <keyword>PowerEdge R630</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="poweredge_r730">
+  <topicmeta>
+   <keywords>
+    <keyword>PowerEdge R730</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="poweredge_r730xd">
+  <topicmeta>
+   <keywords>
+    <keyword>PowerEdge R730xd</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="poweredge_fc630">
+  <topicmeta>
+   <keywords>
+    <keyword>PowerEdge FC630</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="poweredge_fd332">
+  <topicmeta>
+   <keywords>
+    <keyword>PowerEdge FD332</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="poweredge_fx">
+  <topicmeta>
+   <keywords>
+    <keyword>PowerEdge FX</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="poweredge_fx2">
+  <topicmeta>
+   <keywords>
+    <keyword>PowerEdge FX2</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="storage_prodname">
+  <topicmeta>
+   <keywords>
+    <keyword>Dell Storage</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="equallogic">
+  <topicmeta>
+   <keywords>
+    <keyword>PS Series</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="compellent">
+  <topicmeta>
+   <keywords>
+    <keyword>SC Series</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="ceph_long">
+  <topicmeta>
+   <keywords>
+    <keyword>Red Hat Ceph Storage</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="ceph_version">
+  <topicmeta>
+   <keywords>
+    <keyword>1.3.2</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="switch_prodname">
+  <topicmeta>
+   <keywords>
+    <keyword>Dell Networking</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="management_switch">
+  <topicmeta>
+   <keywords>
+    <keyword>S3048-ON</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="aggregation_switch">
+  <topicmeta>
+   <keywords>
+    <keyword>S4048-ON</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="tor_switch_big">
+  <topicmeta>
+   <keywords>
+    <keyword>S6000-ON</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="tor_switch">
+  <topicmeta>
+   <keywords>
+    <keyword>S4048-ON</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="automation_host_long">
+  <topicmeta>
+   <keywords>
+    <keyword>Automation Control System</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="automation_host_short">
+  <topicmeta>
+   <keywords>
+    <keyword>ACS</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="calamari_node">
+  <topicmeta>
+   <keywords>
+    <keyword>Red Hat Ceph Storage Admin Node</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="ofi_node_long">
+  <topicmeta>
+   <keywords>
+    <keyword>RHEL OSP Director Node</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="ofi_node_short">
+  <topicmeta>
+   <keywords>
+    <keyword>Director Node</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="ofi_prodname">
+  <topicmeta>
+   <keywords>
+    <keyword>RHEL OSP Director</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="sah_long">
+  <topicmeta>
+   <keywords>
+    <keyword>Solution Admin Host</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="sah_short">
+  <topicmeta>
+   <keywords>
+    <keyword>SAH</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="tempest_test_node_long">
+  <topicmeta>
+   <keywords>
+    <keyword>Tempest Test Node</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="tempest_test_node_short">
+  <topicmeta>
+   <keywords>
+    <keyword>TT Node</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ <keydef keys="solution_archive_file">
+  <topicmeta>
+   <keywords>
+    <keyword>Dell-OSP-5.0.tgz</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+</map>

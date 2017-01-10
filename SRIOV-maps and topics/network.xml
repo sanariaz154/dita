@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="SRIOV_arch">
+  <title>SRIOV Architecture in NFV 6.0</title>
+  
+  <body>
+  <p> Following are the network requirements for the SRIOV enablement using NFV 6.0</p>
+  <p>  <ol>
+  <li>	Network Topology
+  <ol>
+<li>	Add a network diagram </li>
+<li>	VLAN topology  </li>
+</ol> </li>
+<li>	Switch configurations
+<ol>
+<li>	Port config, </li>
+<li>	VLANs</li>
+<li>	Corresponding commands</li>
+</ol></li>
+<li>	PFs that are used for SRIOV should be connected to a physical switch.
+<ol>
+<li>	Wiring Diagram</li>
+</ol></li>
+<li>	An Access VLAN should be configured on the corresponding switch port on which the PF is connected.</li>
+  </ol>
+  </p>
+  </body>
+  </topic>

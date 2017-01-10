@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="soft">
+  <title>Software</title>
+  
+  <body>
+  
+  <p>  <ol>
+  <li>	Make sure ixgbe driver is loaded in compute host.
+  If you are using RHEL 7.2, it will be loaded out of the box. If you are using some other version, make sure IXGBE is loaded. </li>
+<li>	The script will insert “intel_iommu=on” in the grub menu. 
+</li>
+<li>	After all pre-condition, steps to execute scripts on director.
+</li>
+<li>	You need to have OSP admin privileges.</li>
+<li>Access of RC files of under cloud and over cloud.</li>
+
+<li>List of compute node names.</li>
+<li>Which instance should you apply the script to? Instance Name is required.</li>
+<li>VM should have one tenant network assigned to it, prior to script execution.</li>
+
+
+  </ol>
+  </p>
+  
+  
+  <p>There is the script, 2 passes, </p>
+<p>Pass 1 is Cnode pass (enable SRIOV on Cnode)</p>
+<p>Pass 2 is Instance Pass (when ready to have SRIOV enable on Cnode, now execute Instance pass)
+</p>
+  
+  </body>
+  </topic>

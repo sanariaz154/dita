@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="how">
+  <title>How to get the software</title>
+  
+  <body>
+  
+
+
+    <p>Following are 2 options: <ol>
+        <li>Clone from Dell NFV repository
+		<ol><li>Tell them how to clone the scripts</li></ol></li>
+        <li>Ask your Dell representative
+   Note: The script should be available on Director Node.</li>
+      </ol>
+	  
+	  
+	  </p>
+	  
+	  </body>
+	  </topic>

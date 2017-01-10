@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="SRIOV_arch">
+  <title>SRIOV Architecture in NFV 6.0</title>
+  
+  <body>
+  <p> Dell NFV SRIOV architecture provide a low latency and high throughput network performance in a Dell-RedHat NFV solution. 
+  Dell NFV SRIOV architecture provides wireline speed through Intel®X520 NIC adaptors. 
+  </p>
+  <p>
+  Dell SRIOV solution consists of set of scripts that will automate the enablement of SRIOV virtual functions in Dell RedHat NFV solution 6.0. 
+  Dell SRIOV scripts provides full redundancy at each layer, i.e. VM level, NIC level and physical switch level redundancy.
+  </p>
+  </body>
+  </topic>

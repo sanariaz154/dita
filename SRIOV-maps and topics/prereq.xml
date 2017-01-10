@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="pre">
+  <title>Pre-Requisite</title>
+  
+  <body>
+
+
+    <p>  
+Followings are the items that needs to be completed before we start executing Pass-1 of the scripts:
+ <ol>
+        <li>Make sure, Dell Redhat NFV solution 6.0 is deployed successfully and all the OpenStack services are up and running.</li>
+        <li>Make sure Compute Nodes are equipped with additional hardware as mentioned in Hardware reference section.
+</li>
+<li>Make sure the wiring of additional NIC adaptors to physical Dell S6000 switches are according to the wiring reference mentioned above.
+</li>
+<li>You must be loged in as “osp_admin” to execute the scripts.
+</li>
+<li>	Scripts must be cloned from the upstream repo of Dell NFV.
+	  
+<p>For more detail, refer to “How to get Software” section.</p>
+
+	  
+	  
+	<p><b>Best Practice: </b></p> 
+<ol>
+<li>After modifying the .ini files, make sure to name the setting files according to the date/time/hardware_details etc. 
+So it can be referenced easily for debugging.
+</li>
+<li>b.	It is helpful to verify that SSH is working b/w director and control/compute. You can go to director node and run the following command from there.
+ssh heat-admin@ compute-node-ip>
+This will validate the SSH connectivity between director node and compute node.
+
+</li>
+</ol>
+	
+</li>	
+</ol>
+	  </p>
+	  </body>
+	  </topic>
+	  
+	  a.	b.	

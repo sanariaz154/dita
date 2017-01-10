@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="cmp">
+  <title>Compute Node reference topology</title>
+  <body>
+  <p>Following is the compute node reference topology while enabling SRIOV in NFV 6.0. </p>
+   <fig id="Figure 2">
+            <title><keyword keyref="sah_long"/> Figure 2: Reference Architecture for SRIOV using NFV 6.0</title>
+            <image
+                href="fig2.png"
+                align="center" placement="break"/>
+        </fig>
+    <p>Notes : <ul>
+        <li>	P1P1, P1P2, P2P1 and P2P2 are the physical functions available on Host1 and Host2.</li>
+        <li>	All the Virtual Functions and Physical Functions are available on compute nodes.</li>
+        <li>	For best performance numbers, use at least 2x10Gbps uplinks from TOR to external datacenter.</li>
+      </ul>
+	 
+	 </p>
+	 </body>
+   </topic>	 
+   

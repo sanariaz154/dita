@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="vins">
+  <title>Validate instance pass</title>
+  
+  <body>
+
+
+    <p>  
+ <ol>
+        <li>	Make sure the virtual functions bonds are successfully created inside the virtual machines.</li>
+        <li>	VM is able to send and receive 2.5GB/VF to physical network.</li>
+<li>	Verify SRIOV HA by pulling the cable of one of PF from the physical switch and make sure VM is still able to send/receive traffic.</li>
+
+
+</ol>
+	  </p>
+	  </body>
+	  </topic>
+	  

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="refrence">
+  <title>Reference Architecture Overview</title>
+  <body>
+  
+  <p> Following is the reference architecture for SRIOV deployment in NFV 6.0:</p>
+  
+ 
+    <p>Additional Architectural Notes: </p>
+	<p>
+	<ol>
+        <li>	Dell NFV SRIOV architecture provides wireline speed to the virtual appliances running on a Dell Redhat NFV solution 6.0.</li>
+        <li>	Dell NFV architecture is powered by Intel®X520 dual port 10G NIC adaptors.</li>
+        <li>	Dell NFV SRIOV scripts provides following functionalities in fully automated fashion:
+		     <ol>
+			 <li>	Enablement of Virtual Functions in Compute nodes
+			 <li>Assigning Bandwidth limits to each virtual function</li>
+			 <li>Assigning virtual functions to VMs running in OpenStack</li>
+			 <li>Creating Physical Function pairs to provide NIC level redundancy</li>
+			 <li>bonding</li>
+			 </ol>
+			 
+			 </li>
+      </ol>
+	  </li>
+	   <fig id="fig1">      
+      <title> SRIOV with HA Reference Architecture using NFV 6.0</title>
+
+	  <image href="artwork/fig1.png" placement="break"><alt> SRIOV with HA Reference Architecture using NFV 6.0</alt></image>
+      </fig>
+	  </p>
+	  <p>Additional Hardware Notes: </p>
+	  <p>
+	  <ol>
+        <li>	In addition to standard NFV 6.0 hardware, SRIOV enablement requires additional hardware,
+		i.e. Intel X520, SFP, QSFP connectors, and fiber breakout cables, details can be found in next sections.</li>
+        <li>	In addition to default networks of NFV 6.0, SRIOV enablement will require additional networks (VLANs) 
+		to communicate between physical functions and physical switch. Please refer to network diagram in next section.</li>
+        <li>	SRIOV also requires one external network that can communicate to external datacenter. Detailed network topology is provided in next section.
+		     </li>
+      </ol>
+	  </p>
+	  </body>
+	  </topic>

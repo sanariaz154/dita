@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title><keyword keyref="SRIOV"/> - Version <keyword
+   keyref="product_version"/>
+   
+<image href="artwork/logo1.png" placement="break" />
+
+<codeph>© 2014-2016  Dell Inc.</codeph>
+   </title>
+ <topicmeta><copyright>
+   <copyryear year="&#169; 2014-2016"/>
+  <copyrholder><keyword keyref="company_name_long"/></copyrholder>
+  </copyright></topicmeta>
+ <mapref href="Common/dell_rhosp_variables.ditamap" format="ditamap"/>
+ 
+ <topicref href="Common/trademarks.dita"/>
+<topicref href="Common/Notes.dita"/>
+ 
+
+ <topicref href="SRIOV_arch.dita">
+  <mapref href="SRIOV_arch.ditamap" format="ditamap"/>
+ </topicref>
+ 
+ 
+ 
+
+ <topicref href="Preparation.dita">
+  <mapref href="Preparation.ditamap" format="ditamap"/>
+ </topicref>
+ <topicref href="Howtoget.dita"/>
+ <topicref href="SRIOV script cnode Pass.dita">
+  <mapref href="SRIOV script cnode Pass.ditamap" format="ditamap"/>
+   </topicref>
+  <topicref href="SRIOV script instance pass.dita">
+ <mapref href="SRIOV script instance pass.ditamap" format="ditamap"/>
+  </topicref>
+ 
+</map>

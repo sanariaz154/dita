@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="validate">
+  <title>Validate cnode Pass</title>
+  
+  <body>
+  
+    <p>Following is snippet that shows the successful completion of the SRIOV cnode pass: </p>
+        
+		<fig id="fig6">      
+        <title> successful completion of cnode pass</title>
+	  <image href="artwork/fig6.png" placement="break"><alt> successful completion of cnode pass</alt></image>
+      </fig>
+	  <p>In case of successful completion of the cnode pass, script will return the output similar to Figure 4.
+	  </p>
+	  <p><b>Best Practices:</b> </p>
+	  <p>
+	  <ol>
+	  <li>	Save the log files after script has returned successfully or unsuccessfully.
+	  </li>
+	  
+	  
+	  
+	  
+	  
+	  </ol>
+	   
+	  
+	  </p>
+	  </body>
+	  </topic>

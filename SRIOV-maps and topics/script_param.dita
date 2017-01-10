@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="param">
+  <title>Script parameter:</title>
+  
+  <body>
+  
+
+
+    <p>Followings are the script parameters that will be input in the <tt>sriov_settings_pass-cnode_R141-compute-1.ini  </tt>file. 
+	</p>
+	
+	
+	
+	 <table colsep="1" rowsep="1">
+ <tgroup cols="4">
+ <colspec colname="COLSPEC0" colwidth="5%"/>
+<colspec colname="COLSPEC1" colwidth="25%"/>
+ <colspec colname="COLSPEC2" colwidth="18%"/>
+<colspec colname="COLSPEC3" colwidth="55%"/>
+
+   <thead>
+   <row>
+   <entry> No.</entry>
+   <entry>Parameter  </entry>
+   <entry> Supported values</entry>
+   <entry> Description/Example</entry>
+   
+   </row>
+   </thead>
+   
+   <tbody>
+   <row>
+   <entry>1 </entry>
+   <entry>settingsVersion </entry>
+   <entry>1</entry>
+   <entry> This parameter reflects the version of the settings file that is being used. Only supported value is 1.
+Example:
+<codeph>settingsVersion=1 </codeph>
+</entry>
+   
+   </row>
+   <row>
+   <entry> 2</entry>
+   <entry>scriptName
+ </entry>
+   <entry>	enable_sriov </entry>
+   <entry> This parameter represents the script name that is being run. Only supported value is enable_sriov.
+Example:
+scriptName=enable_sriov
+</entry>
+   
+   </row>
+   <row>
+   <entry> 3</entry>
+   <entry>scriptVersion </entry>
+   <entry>0.01 </entry>
+   <entry>This parameter is the version of the script that is being executed. Only supported value is ‘0.01’
+Example:
+scriptVersion=0.01
+ </entry>
+ 
+   </row>
+   <row>
+   <entry> 4</entry>
+   <entry>RHOSPVersion </entry>
+   <entry> 9</entry>
+   <entry> This parameter is the RedHat OpenStack version on which scripts are being executed. Currently, only supported version is 9
+Example:
+RHOSPVersion=9
+</entry>
+   
+   </row>
+   <row>
+   <entry> 5</entry>
+   <entry>JSVersion </entry>
+   <entry> 6.0</entry>
+   <entry>This specifies the Jet Stream version on which script are being executed. Only supported JetStream version is 6.0.
+Example:
+JSVersion=6.0
+</entry>
+  
+   </row>
+   <row>
+   <entry> 6</entry>
+   <entry>scriptPass</entry>
+   <entry> “cnode”
+“instance_pass”
+</entry>
+   <entry>This parameter is the argument to the script to run on compute node or VM instance.
+First pass to the script should be “cnode” pass, this will create virtual functions and enable compute nodes for SRIOV.
+Example:
+scriptPass=cnode
+</entry>
+  
+   </row>
+   <row>
+   <entry> 7</entry>
+   <entry>	scriptPassMode</entry>
+   <entry>“ephemeral”
+“persistent”
+</entry>
+   <entry>This parameter describes weather the SRIOV and virtual functions will be ephemeral or persistent across multiple reboots of compute nodes. The default value is “ephemeral”.
+Example for ephemeral:
+scriptPassMode=ephemeral
+Example for ephemeral:
+scriptPassMode=persistent
+</entry>
+   
+   </row>
+   <row>
+   <entry> 8</entry>
+   <entry>num_vfs_per_pf </entry>
+   <entry> ‘2’-‘64’</entry>
+   <entry> This parameter reflects the number of virtual functions created per physical functions. The minimum value is 2 and maximum can be 64. However, these number can vary depending on the NIC adaptor being used. Default value  in the script is 4
+Example:
+num_vfs_per_pf=4
+</entry>
+  
+   </row>
+   
+   <row>
+   <entry> 9</entry>
+   <entry>	PFPair1pf1</entry>
+   <entry> interface name </entry>
+   <entry>This parameter is to define the logical pairs of physical functions that script creates in order to provide NIC level redundancy. Two PF pairs are  created by script. Each pair consists of 2 PF for redundancy.
+Example PF Pair 1
+PFPair1pf1=p1p1
+PFPair1pf2=p2p1 
+Similarly, example for PF Pair 2:
+PFPair2pf1=p1p2
+PFPair2pf2=p2p2
+</entry>
+   
+   </row>
+   
+   <row>
+   <entry> 10</entry>
+   <entry>	bw_available_per_pf </entry>
+   <entry>10</entry>
+   <entry> This parameter describes the bandwidth (in Gbps) available for each physical function. The scripts has been only tested for Intel®X520 dual port adaptors. Therefore, the only supported value is 10.
+Example:
+bw_available_per_pf=10
+</entry>
+   
+   </row>
+   <row>
+   <entry> 11</entry>
+   <entry>	bw_strategy </entry>
+   <entry>equal </entry>
+   <entry> This parameter reflects the distribution among virtual functions.
+Example:
+bw_strategy=equal
+</entry>
+   
+   </row>
+   
+   <row>
+   <entry> 12</entry>
+   <entry>	cnodeName </entry>
+   <entry>Compute Node Name </entry>
+   <entry> This parameter contains the name of the compute node on which the SRIOV enablement is being triggered.
+Example:
+cnodeName=R141-compute-1
+</entry>
+   
+   </row>
+   
+   
+   
+    </tbody>
+ </tgroup>
+ </table>
+ 
+ 
+	
+	
+	
+	
+	  
+	  
+	  </body>
+	  </topic>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="steps">
+  <title>Steps to execute cnode pass</title>
+  
+  <body>
+
+
+    <p>  Followings are the steps that will be followed in the order to execute cnode pass scripts: </p>
+	<p>
+ <ol>
+        <li>	cnode pass the script requires following arguments described below:
+		<ol>
+		
+		
+		<li><b>--settings_file: </b>
+		This argument requires an input of settings file name. The file contains all the parameters described in the parameter section in above section.
+<b>Where to find this file:</b> This file comes with script software package cloned from github repository. 
+The file contains default values for standard Dell RedHat NFV solution 6.0.		</li>
+		<li><b>	--ucrc:</b> Under Cloud RC files, it contains the authentication URL and credentials for Under Cloud Director node.
+<b>Where to find this file:</b>
+</li>
+		<li><b>	--ocrc: </b>Over Cloud RC files, it contains the authentication URL and credentials for Over Cloud OpenStack environment.
+<b>Where to find this file:</b> 
+</li>
+
+
+<li><b>--script_pass:</b> This arguments describes the type of pass mode to execute the scripts.
+ Following 2 modes are applicable for input:
+   <ol><li>cnode</li>
+   <li>instance</li> </ol>
+ </li>
+		</ol>
+		</li>
+
+
+		<li> Run script through following command:
+		<tt>
+		
+python enable_sriov.py --settings_file= settings file name> -–ucrc undersloud RC file name> --ocrc overcloud RC file name> --script_pass cnode </tt>
+<b>Example:</b> 
+<tt>
+python enable_sriov.py --settings_file=sriov_settings_pass-cnode.ini --ucrc=stackrc --ocrc=r141rc --script_pass=cnode  </tt>
+
+		</li>
+		
+		
+		
+		
+		
+</ol>
+	  </p>
+	  </body>
+	  </topic>
+	  
